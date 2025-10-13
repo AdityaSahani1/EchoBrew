@@ -1,0 +1,47 @@
+# Echoes & Brews - Git Ignore
+
+# Database files
+*.sqlite
+*.db
+database.sqlite
+
+# Environment and Config (when using .env)
+.env
+.env.local
+
+# Uploads (user content)
+uploads/*
+!uploads/.gitkeep
+!uploads/profiles/.gitkeep
+!uploads/posts/.gitkeep
+
+# PHP
+vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+error_log
+debug.log
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# System files
+Thumbs.db
+desktop.ini
