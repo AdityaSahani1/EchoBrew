@@ -39,6 +39,7 @@ $site_quote = getSetting('site_quote', 'Pour your thoughts. Sip your peace.');
     </div>
 </div>
 
+
 <section class="mood-selector">
     <h2>How are you feeling today?</h2>
     <div class="mood-buttons">
